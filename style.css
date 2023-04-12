@@ -1,0 +1,193 @@
+body{
+	font-family: "Fira+Sans", sans-serif;
+}
+
+.red{
+	color: red;
+}
+
+.main-title{
+	text-align: center;
+	font-size: 150px;
+	margin-bottom: 0px;
+	margin-top: 30px;
+	padding-bottom: 0px;
+}
+
+.sub-title{
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 0px;
+	font-size: 30px;	
+}
+
+.main-post{
+
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10px;
+	background-color: #f0f0f0;
+	width: fit-content;
+	align-content: middle;
+	margin: auto;
+	margin-bottom:30px;
+	padding-bottom:10px;
+}
+
+.black-bar{
+	height: 2px;
+	background-color: black;
+	width: 85%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.main-post-mobile{
+
+}
+.video-gps{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+.post-info{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.video-youtube{
+	object-fit: cover;
+}
+
+.map-google{	
+	object-fit: cover;
+
+
+}
+
+.post-title{
+	font-size: 70px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+
+}
+
+.post-author{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.activity-count{
+	font-size: 15px;
+	margin-top: 5px;
+}
+.post-length{
+	font-size: 20px;
+	margin: 0px;
+
+
+}
+
+.pedal-tag{
+	background-color: blue;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
+	font-size: 20px;
+	border: none;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.shop-tag{
+	background-color: yellow;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
+	font-size: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+.hike-tag{
+	background-color: green;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
+	font-size: 20px;
+
+}
+
+.profile-pic{
+	height: 80px;
+	width: 80px;
+	border-radius: 40px;
+	object-fit: cover;
+}
+
+.generic-tag{
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
+	font-size: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.user-block {
+	display: grid;
+	grid-template-columns: 80px 1fr;
+	align-content: center;
+	align-items: left;
+}	
+
+.user-id {
+	padding-left: 15px;
+}
+
+.difficulty-block{
+	text-align: center;
+	margin: auto;
+}
+
+.difficulty-title{
+	font-size: 20px;
+	margin: 0px;
+	text-align: center;
+}
+
+.difficulty-ident{
+	font-size: 65px;
+	margin: 0px;
+	color: lightgreen;
+	line-height: 60px;
+
+}
+
+.difficulty-description{
+	margin: 0px;
+	font-size: 20px;
+}
+
+.tag-block{
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 15px;
+}
+
+.info-block{
+	text-align: right;
+}
