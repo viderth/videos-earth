@@ -3,96 +3,59 @@
 <html>
 	<head>
 	
-	  <title>Viderth.com</title>
+	  	<title>Viderth</title>
 
-	  <link rel="stylesheet" href="style.css">	
-	
+	  	<link rel="stylesheet" href="style.css">	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	
 	<body>
-
-		<a href="pages\loginsignup.html"><p class="login-signup">login/signup</p></a>
+		<div class="title-bar">
+			<img src="images/LNT.jpg" height="50">
+			<form class="search-bar" action="/search" method="get">
+    		<input class="search-bar" type="text" id="search" name="q" placeholder="Search feature coming soon!!!">
+    		</form>
+			<a href="pages\loginsignup.html"><p class="login-signup">login/signup</p></a>
+		</div>
+	
 		<p class="main-title">vid<span class="red">e</span>rth</p>
 		<p class="sub-title"><span class="red">find</span> an adventure - <span class="red">share</span> an adventure</p>
-
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 	
-
-      
-	<div class="main-post-mobile">
-		<p class="post-title"><a href="pages/post.html">Mt. Galbraith</a></p>
- 			<div class="post-info">
-		   		
-		   		<div class="user-block">					<img class="profile-pic" src="images	/profilepic.jpg">
-		   				<div class ="user-id">
-		   					<p class="post-author">MountainMan01</p>
-		   					<p class="activity-count">125 adventures</p>
-		   				</div>
-				</div> 
-					
-				<div class="info-block">
-		   			<p class="difficulty-description">difficulty - easy</p>
-					<p class="difficulty-ident">03</p>
-            		<p class="post-length">1hour 8minutes - 4.2miles</p>
-  				</div>
-			</div>	
-		    
-		    <div class="tag-block">
-            	<button class="hike-tag">hike</button>
-		        <button class="shop-tag">shop</button>
-		        <button class="hike-tag">hike</button>
-		        <button class="shop-tag">shop</button>
-		        <button class="generic-tag">ipsom</button>    
-			</div>	  
-				
-				<div class="video-gps">
-
-					<iframe class="video-youtube"  width=100% height="350" src="https://www.youtube.com/embed/BwFYQSknGOk" title="Mt Galbraith" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-					<iframe class="map-google"  width=100% height="350" src="https://www.google.com/maps/d/u/0/embed?mid=1eBYJyzzK0QmCDoFh0PQp6gYFv_M&ehbc=2E312F" frameborder="0"></iframe>
-	  			</div>
-	
-
-
-
-<div class="black-bar"> </div>
-
-	<div class="main-post-mobile">
-		<p class="post-title">Mt. Galbraith</p>
- 			<div class="post-info">
-		   		
-		   		<div class="user-block">					   			<img class="profile-pic" src="images/				profilepic.jpg">
-		   				
-		   				<div class ="user-id">
-		   					<p class="post-author">MountainMan01</p>
-		   					<p class="activity-count">125 adventures</p>
-		   				</div>
-				</div> 
-					
-					<div class="info-block">
-		   				<p class="difficulty-description">difficulty - easy</p>
-						<p class="difficulty-ident">03</p>
-            			<p class="post-length">1hour 8minutes - 4.2miles</p>
-  					</div>
-			</div>	
-		    
-		    <div class="tag-block">
-            	<button class="hike-tag">hike</button>
-		        <button class="shop-tag">shop</button>
-		        <button class="hike-tag">hike</button>
-		        <button class="shop-tag">shop</button>
-		        <button class="generic-tag">ipsom</button>    
-			</div>	  
-				
-				<div class="video-gps">
-
-					<iframe class="video-youtube"  width=100% height="350" src="https://www.youtube.com/embed/BwFYQSknGOk" title="Mt Galbraith" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-					<iframe class="map-google"  width=100% height="350" src="https://www.google.com/maps/d/u/0/embed?mid=1eBYJyzzK0QmCDoFh0PQp6gYFv_M&ehbc=2E312F" frameborder="0"></iframe>
-	  			</div>
-	  </div>
-	</body>
-
-</html>
+		<div class="post-scroll">
+			<div class="video-map-column">			
+				<iframe class="video-youtube" src="https://www.youtube.com/embed/BwFYQSknGOk" title="Mt Galbraith" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<iframe class="map-google" src="https://www.google.com/maps/d/u/0/embed?mid=1eBYJyzzK0QmCDoFh0PQp6gYFv_M&ehbc=2E312F" frameborder="0"></iframe>
+	  		</div>
+			
+			<div>
+				<div class="info-column">
+					<p class="post-scroll-title">Mt. Galbraith</p></a>
+					<div class="user-id-block">
+							<img class="profile-pic" src="images/profilepic.jpg">				
+							
+							<div class ="user-id">
+								<p class="post-author">MountainMan01</p>
+								<p class="activity-count">125 adventures</p>
+							</div>
+					</div>
+				</div>
+					<div class="scroll-info-block">
+						<div class ="scroll-info">
+							<p class="post-length">length: 9 miles</p>
+							<p class="post-difficulty">difficulty: easy</p>
+						</div>
+					 		<img class="directions-icon" src="images/img_321696.png">
+					</div>
+						<div class="tag-block">
+							<button class="hike-tag">hisddke</button>
+							<button class="hike-tag">hike</button>
+							<button class="hike-tag">hikzsdgsge</button>
+							<button class="hike-tag">this is some random text</button>
+							<button class="hike-tag">hike</button>
+							<button class="hike-tag">hike</button>
+							<button class="hike-tag">hikasdfe</button>
+							<button class="hike-tag">hike</button>
+						</div>
+				</div>
+			</div>
+		</div>
