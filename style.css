@@ -142,3 +142,12 @@ body{
     display: grid;
     place-items: center;
 }
+
+@media screen and (max-width: 768px) {
+    .video-map-column {
+        width: 100%; /* Ensure the container takes up the full width on mobile */
+    }
+
+    .video-map-column iframe {
+        width: 100%; /* Make iframes fill the entire width of the container */
+        height: 60vh; /* Adjust height for smaller screens */
