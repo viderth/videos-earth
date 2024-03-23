@@ -106,7 +106,7 @@ body{
 
 .post-scroll{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 40vw 40vw;
 }
 
 .scroll-info-block{
