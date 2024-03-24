@@ -20,12 +20,12 @@ body{
 
 .main-title{
 	text-align: center;
-	font-size: 30vh;
+	font-size: 12em;
 	margin-bottom: 0px;
 	margin-top: 5px;
 	padding-bottom: 0px;
     font-weight: bold;
-	height: 30vh;
+
 }
 .red{
 	color: red;
