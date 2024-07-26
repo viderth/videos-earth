@@ -1,4 +1,3 @@
-
 .title-bar{
     display: grid;
     grid-template-columns: 20vw 1fr 20vw;
@@ -46,6 +45,7 @@ body{
     font-size: 1.2em; 
     margin-top: 0px;
     margin-bottom: 2px;
+    margin-left: 2vw;
 
 }   
 
@@ -60,6 +60,8 @@ body{
 .user-id-block{
     display: grid;
     grid-template-columns: 2.2em 1fr;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
 }
 
 .hike-tag{
@@ -101,8 +103,9 @@ body{
 
 
 .map-google{
-    width: 100%;
+    width: 100vw;
     height: 20vh;
+
  
 }
 
@@ -151,3 +154,178 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+
+
+.logged-top{
+    border: 2px solid black;
+    height: 5vh;
+    width: 98vw;
+    align-content: center;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 5px;
+    margin: auto;
+   
+}
+
+
+.logged-top-logo{
+   
+	padding-left: 4px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+    font-weight: bold;
+    font-size: 1.8em;
+    height: 6vh;
+
+}
+
+.primary-navigation{
+    list-style: none;
+    padding: 3rem 1rem;
+    margin: 0;
+    position: fixed;
+    inset: 0 0 0 60%;
+    background: hsl(0 0% 50% / 0.5);
+    backdrop-filter: blur(1rem);
+
+    transform: translateX(100%);
+    transition: transform 350ms ease-in;
+
+
+}
+
+.mobile-nav-toggle {
+    position: absolute;
+    z-index: 9999;
+    width: 2rem;
+    height: 2rem;    
+    top: .2rem;
+    right: .5rem;
+    background-image: url('images/hamburger.jpg');
+    background-size: contain;
+    background-position: center;
+    display: block;
+    border: none;
+    background-color: transparent;
+}
+
+.mobile-nav-toggle[aria-expanded="true"] {
+    background-image: url('images/xicon.jpg');
+}
+
+.hamburger{
+     object-fit: cover;
+     height: 10px;
+}
+
+.primary-navigation[data-visible="true"] {
+    transform: translateX(0%);
+
+}
+
+.find-drop-toggle{
+    width: 1.1rem;
+    height: 1.1rem;
+    background-image: url('images/dicon.jpg');
+    background-size: contain;
+    background-position: center;
+    border: none;  
+    background-color: transparent;
+    transform: rotate(-180deg);
+    transition-duration: 350ms;
+   
+   
+}
+
+.share-drop-toggle{
+    width: 1.1rem;
+    height: 1.1rem;
+    background-image: url('images/dicon.jpg'); 
+    background-size: contain;
+    background-position: center; 
+    border: none;
+    background-color: transparent;
+    transform: rotate(-180deg);
+    transition-duration: 350ms;
+}
+
+.logged-find{
+    display: inline;
+    
+}
+
+.logged-share{
+    display: inline;
+}
+
+.drop-menus{
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    
+}
+
+.find-drop-menu{
+    list-style: none;
+    padding: 0px;
+    margin: 3px;
+    text-align: center;
+}
+
+.find-drop-menu[data-visible="false"] {
+    display: none;   
+}
+
+.share-drop-menu{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    margin: 3px;
+}
+
+.share-drop-menu[data-visible="false"] {
+    display: none;
+}
+
+.share-drop-toggle[aria-expanded="true"] {
+    transform: none;
+}
+.find-drop-toggle[aria-expanded="true"] {
+    transform: none;
+    }
+
+.adventure-description{
+    font-size: .8em;
+    width: 90vw;
+}
+
+.post-content-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.post-video{
+    width: 100vw;
+    height: 20vh;
+}
+
+.post-data-chart{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    font-size: 0.8em;
+    text-align: center;
+
+}
+
+#chart-container {
+            width: 90vw;
+            height: 300px;
+        }
