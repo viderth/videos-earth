@@ -1,0 +1,148 @@
+body{
+	font-family: "calibri", sans-serif;
+    margin: 0;
+}
+
+.index-post-scroll{
+    display: grid;
+    grid-template-columns: .55fr .45fr;
+    column-gap: 5px;
+    margin-bottom: 15px;
+    margin: 0px;
+    background: linear-gradient(to bottom, #ffffff, #e4dede);
+}
+
+.profile-pic{
+	height: 2em;
+	width: 2em;
+	border-radius: 1em;
+	object-fit: cover;
+	margin-left: 0px;
+}
+
+.directions-icon{
+    max-height: 45px;
+    max-width: 45px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px
+}
+
+.scroll-info-block{
+    display: grid;
+    grid-template-columns: .55fr .45fr;
+}
+
+.video-youtube{
+    width: 100%;
+    height: 17vh;
+    
+}
+
+
+.map-google{
+    width: 100%;
+    height: 17vh;
+ 
+}
+
+.main-title{
+	text-align: center;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+    font-weight: bold;
+    font-size: 5em;
+    height: 1em; 
+}
+.red{
+	color: red;
+}
+
+.user-id-block{
+    display: grid;
+    grid-template-columns: 2.2em 1fr;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+}
+
+.hike-tag{
+	background-color: green;
+	color: white;
+	padding-top: .1em;
+	padding-bottom: .1em;
+	padding-left: .5em;
+	padding-right: .5em;
+	border-radius: 20px;
+	font-size: 1em;
+    margin: 2px;
+    border: 0px;
+}
+
+.post-length, .post-difficulty{
+    text-align: right;
+}
+
+.post-author{
+    font-size: .8em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.activity-count{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: .5em;
+}
+
+.index-scroll-info-block{
+    display: grid;
+    grid-template-columns: .55fr .45fr;
+}
+
+.logged-top-logo{
+    display: flex;
+	padding-left: 15px;
+    margin: 2px;
+	padding-bottom: 0px;
+    font-weight: bold;
+    font-size: 1.8em;
+    height: 6vh;
+    border: 1.5px solid black;
+    align-items: center;
+
+    
+
+
+}
+
+.post-length, .post-difficulty{
+    text-align: right;
+
+    
+}
+
+.post-length{
+    font-size: .6em;
+    margin-bottom: 3px;
+}
+
+.post-difficulty{
+    font-size: .6em;
+    margin-top: 3px;
+}
+
+.post-scroll-title{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+
+.index-info-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
