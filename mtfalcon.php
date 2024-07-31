@@ -21,7 +21,7 @@
 
 
     
-<a href="index.html"><p class="logged-top-logo">vid<span class="red">e</span>rth</p></a>
+<a href="index.html" class="logged-top-logo">vid<span class="red">e</span>rth</a>
 
 
 <p class="post-scroll-title">Mt Falcon Park</p></a>
