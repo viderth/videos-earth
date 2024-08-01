@@ -127,7 +127,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Load the GPX file
-fetch('http://localhost/mtfalcon2.gpx')
+fetch('/mtfalcon2.gpx')
   .then(response => response.text())
   .then(gpxData => {
     // Parse the GPX data and extract coordinates using the parseGPX function
@@ -165,7 +165,7 @@ attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStree
 }).addTo(map2);
 
 // Load the GPX file
-fetch('http://localhost/centennialcone.gpx')
+fetch('/centennialcone.gpx')
 .then(response => response.text())
 .then(gpxData => {
   // Parse the GPX data and extract coordinates using the parseGPX function
