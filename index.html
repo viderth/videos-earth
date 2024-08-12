@@ -235,7 +235,7 @@ map2.fitBounds(extendedBounds);
 		
  // ------------------------------------------------------------------------------------------------------------------------
    // Initialize the map
-   var map2 = L.map('map3', {
+   var map3 = L.map('map3', {
 	zoomControl: false
    }).setView([39.715413, -105.309065], 8); // Set the initial center coordinates and zoom level
   // Add a base layer
@@ -251,7 +251,7 @@ fetch('/BeaverBrookChavez.gpx')
   var traceCoordinates = parsemGPX(gpxData);
 
   // Create a polyline from the trace coordinates and add it to the map
-  var polyline = L.polyline(traceCoordinates, { color: 'green' }).addTo(map2);
+  var polyline = L.polyline(traceCoordinates, { color: 'green' }).addTo(map3);
 
  // Get the bounds of the polyline
 var polylineBounds = polyline.getBounds();
@@ -265,7 +265,7 @@ var northEast = L.latLng(polylineBounds.getNorth(), polylineBounds.getEast());
 var extendedBounds = L.latLngBounds(southWest, northEast).pad(padding);
 
 // Fit the map to the extended bounds
-map2.fitBounds(extendedBounds);
+map3.fitBounds(extendedBounds);
 })
 .catch(error => console.error('Error loading GPX file:', error));
 
